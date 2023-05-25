@@ -608,8 +608,6 @@
 				ADC257811F8F3EBE00418881 /* Sources */,
 				ADC257821F8F3EBE00418881 /* Frameworks */,
 				ADC257831F8F3EBE00418881 /* Resources */,
-				4B95FF717C6BE1C989A1AF37 /* [CP] Embed Pods Frameworks */,
-				A3D44E615DE38566692210EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -668,7 +666,7 @@
 				TargetAttributes = {
 					ADC257841F8F3EBE00418881 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 23CNQ6K9TW;
+						DevelopmentTeam = 62TC4U675M;
 						ProvisioningStyle = Automatic;
 					};
 					ADC2579D1F8F3EBF00418881 = {
@@ -690,6 +688,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -745,24 +744,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4B95FF717C6BE1C989A1AF37 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PVSDK_Demo/Pods-PVSDK_Demo-frameworks.sh",
-				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PVSDK_Demo/Pods-PVSDK_Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8B12872DD87ADE2F20763AB2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -779,24 +760,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A3D44E615DE38566692210EB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PVSDK_Demo/Pods-PVSDK_Demo-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PVSDK_Demo/Pods-PVSDK_Demo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -988,7 +951,7 @@
 			baseConfigurationReference = 62FBD8C81F5949C340CB6738 /* Pods-PVSDK_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 23CNQ6K9TW;
+				DEVELOPMENT_TEAM = 62TC4U675M;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1015,7 +978,7 @@
 			baseConfigurationReference = AFC0D37D64375F3BAB129B63 /* Pods-PVSDK_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 23CNQ6K9TW;
+				DEVELOPMENT_TEAM = 62TC4U675M;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
